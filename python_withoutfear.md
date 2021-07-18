@@ -191,8 +191,18 @@ add as needed
 git s
 ```
 *s for status (for us only)
-  
 
+```
+git remote add origin https://equalchimi@github.com/equalchimi/python_withoutfear.git
+```
+*connecting to github repository, allows to upload to github* 
+
+*adding username before github bypasses getting asked everytime*
+  
+```
+git remote -v show
+```
+*shows what remote you have/what you changed* 
 
 
 
