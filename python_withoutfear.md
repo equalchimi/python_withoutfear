@@ -179,30 +179,85 @@ ctrl a and ctrl v!
 
 # backing up to git
 
-go to wt default command prompt
+go to **wt default command prompt** in corresponding directory location
 type 
+
 ```
 git init .
+```
+**only the first time*
+
+--
+
+*updating a file*
+
+```
 git add -i
 ```
-add as needed
+^add as needed
+
+--
+
+*updating the history*
+```
+git commit
+```
+
+will get asked to input a note in vscode
+
+**if the note is left empty and window closed, update will be aborted*
+
+
+```
+just type the note, ctrl s, and ctrl w
+```
+that will update it in wt
+
+--
+
+*checking the status of files*
 
 ```
 git s
 ```
-*s for status (for us only)
+**for us only*
 
+--
+
+*checking the history log*
+```
+git l
+```
+
+--
+
+*connecting to github repository, allows to upload to github*
+
+***this allows us to know what has been backed up to repository and what has not***
 ```
 git remote add origin https://equalchimi@github.com/equalchimi/python_withoutfear.git
 ```
-*connecting to github repository, allows to upload to github* 
+ adding username before github bypasses getting asked everytime
 
-*adding username before github bypasses getting asked everytime*
-  
+**only the first time*
+
+--
+
+*to show what remote you have/what you changed*
 ```
 git remote -v show
 ```
-*shows what remote you have/what you changed* 
+ 
+ --
+
+
+*this updates to the github website/repository*
+```
+git push -u origin main
+```
+
+**the -u is only for the first time*
+
 
 
 
