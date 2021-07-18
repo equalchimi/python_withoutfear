@@ -90,7 +90,16 @@ ex.
 * consistently use 4 spaces or a tab
 
 * in vs code: ctrl , *open settings*
-         
+
+* to check path:
+
+  ```
+  import os
+  ```
+  **unless in vscode and already there, needed in mamba*
+  ```
+  os.getcwd()
+  ```       
     
     
  # miniforge (same function as miniconda)
