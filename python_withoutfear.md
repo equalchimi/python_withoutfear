@@ -258,7 +258,24 @@ git push -u origin main
 
 **the -u is only for the first time*
 
+```
+git push origin main
+```
+**last two words are what my things are named.*
+
+connect to internet since we are uploading to internet.
+
+--
+
+### when working on multiple projects/just separately
 
 
-
+*like duplicating a layer; you are fetching the code from the main branch*
+```
+git fetch origin
+```
+*like merging layers; you are merging the fetched code with your own*
+```
+git merge origin/main
+```
 
