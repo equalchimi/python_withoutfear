@@ -279,3 +279,7 @@ git fetch origin
 git merge origin/main
 ```
 
+origin = repository
+
+main = branch
+
