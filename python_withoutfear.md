@@ -186,6 +186,17 @@ in your gist, go to raw
 
 ctrl a and ctrl v!
 
+## running python files in wt (alt. to using conda in vs code itself)
+
+select mamba from the dropdown
+
+```
+activate py36 #or whatever version
+```
+```
+python ch3.py #or whatever file name
+```
+
 # backing up to git
 
 go to **wt default command prompt** in corresponding directory location
