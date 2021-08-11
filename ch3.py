@@ -146,3 +146,24 @@ print()
 
 print('testing!')
 print(5*5-8*7/1)
+print()
+
+# page 47
+## area of a circle
+
+print('area of a circle & fss formatting')
+print('type: from math import pi')
+from math import pi
+
+print('set up fss in function:')
+
+def circleA() :
+    r = float(input('Enter radius value: '))
+    A = pi * r ** 2
+    fss = 'The area of a cirlce with radius {} is {}'
+    output_str = fss.format(r, A)
+    print(output_str)
+
+print(circleA())
+print()
+
