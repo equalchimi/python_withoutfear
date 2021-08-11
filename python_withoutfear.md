@@ -303,3 +303,11 @@ origin = repository
 
 main = branch
 
+
+## if you haven't been here in a while...
+
+[git add -i] automatically detects which file(s) you altered
+
+question: does git push -u origin main 'upload' all new files to internet or selected ones? 
+
+answer: [probably selected ones]
