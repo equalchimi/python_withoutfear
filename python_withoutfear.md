@@ -303,6 +303,36 @@ origin = repository
 
 main = branch
 
+# New Branches in Git
+ this allows you to go back to specific point in history and branch off, non destructive!
+
+ ```
+ git checkout ####### 
+ ```
+ the #'s are the numbers for instances, in git list
+
+ **make sure git s is clean before checking out!** 
+
+ ## to create a new branch...
+
+ use command above, and then
+```
+git switch -c <new-branch-name>
+ ```
+ undo it with
+ ```
+ git switch -
+ ```
+ to upload it to github:
+```
+git push origin <branch name>
+```
+***make sure you know which branch you are on!!!***
+
+check with git list (head is where you are), and switch around with command:
+```
+git checkout <branch name>
+```
 
 ## if you haven't been here in a while...
 
